@@ -1,0 +1,27 @@
+name: Anstoss
+
+on:
+  push:
+    branches: [main]
+    paths: ['uebergaben/*/manifest.json']
+
+permissions:
+  contents: read
+
+jobs:
+  anstoss:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Aktion Editor-Eingang starten
+        env:
+          GH_TOKEN: ${{ secrets.ANSTOSS_TOKEN }}
+        run: |
+          for m in $(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'uebergaben/*/manifest.json'); do
+            id=$(basename "$(dirname "$m")")
+            [[ "$id" =~ ^[0-9]{8}-[0-9]{6}-[a-z0-9]{4}$ ]] || continue
+            gh api repos/SwissSpoony/walk-solothurn/actions/workflows/editor-eingang.yml/dispatches -f ref=main -f "inputs[uebergabe]=$id"
+            echo "angestossen: $id"
+          done
