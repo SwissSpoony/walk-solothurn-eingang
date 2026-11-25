@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "id": "20261125-203207-5u4j",
+  "titel": "Probe Rückweg",
+  "beschreibung": "",
+  "zeit": "2026-11-25T19:32:07.887Z",
+  "editor": {
+    "version": "0.8.0",
+    "commit": "dev"
+  },
+  "dateien": [
+    {
+      "pfad": "data/fassaden/3145025-platz-552.json",
+      "hinweis": "geändert"
+    }
+  ],
+  "pruefung": [
+    {
+      "pfad": "data/fassaden/3145025-platz-552.json",
+      "fehler": 0,
+      "warnungen": 0,
+      "punkte": []
+    }
+  ]
+}

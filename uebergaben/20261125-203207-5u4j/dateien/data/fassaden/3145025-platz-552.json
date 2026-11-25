@@ -1,0 +1,238 @@
+{
+  "_hinweis": "Hauptgasse 50 (AV-Grundstück 552, Adresse laut AV; vom Eigentümer «Hauptgasse 48» genannt), Platzfassade links neben dem Vigierhof (553). Das Modell fasst 552 und 553 zum Haus EGID 3145025 zusammen; eigene Wandgruppe im Modell. Breite 5,76 m aus der AV (Grundstück 552: linke Ecke = Grenze zu 190106002, rechte Ecke = linke Ecke von 553). Nach dem Beschrieb des Eigentümers (L78) und den Fotos vom 21.11.2026 (Ordner «552 Hauptgasse 48»: 160354 frontal über den Brunnen, 161506 schräg; Erdgeschoss aus dem Foto des Eigentümers). Höhen aus dem Frontalfoto, über die Geschosse von 553 am rechten Bildrand geeicht (rund 42 px/m, ±0,2 m); x aus der Breite (52 px/m).",
+  "fassade": "egid:3145025/platz-552",
+  "breite_m": 5.76,
+  "richtung": [
+    0.347,
+    0.938
+  ],
+  "ecke_links_lv95": [
+    2607465.3,
+    1228531.7
+  ],
+  "putz": "putz_hellgrau",
+  "laeden_farbe": "laden_gruen_dunkel",
+  "laeden_farbe_rahmen": "laden_dunkel",
+  "vorgaben": {
+    "fenster": {
+      "gewaende": "stichbogen",
+      "felder": [
+        2,
+        3
+      ],
+      "laeden": true
+    }
+  },
+  "elemente": [
+    {
+      "id": "eg-stein",
+      "typ": "flaeche",
+      "x_m": 2.88,
+      "v_m": 0,
+      "hoehe_m": 4.1,
+      "breite_m": 5.76,
+      "_hinweis": "Erdgeschoss in Naturstein (Rustika, Keilsteinsturz über der Ladenöffnung: als glatte Fläche)"
+    },
+    {
+      "id": "eg-laden",
+      "typ": "laden",
+      "x_m": 2.86,
+      "v_m": 0,
+      "hoehe_m": 2.97,
+      "breite_m": 4.32,
+      "schaufenster": {
+        "x0_m": 0.95,
+        "x1_m": 2.4
+      },
+      "eingang": {
+        "x0_m": 3.33,
+        "x1_m": 4.77,
+        "tiefe_m": 1,
+        "tueren": [
+          {
+            "art": "glas",
+            "x0_m": 3.6,
+            "x1_m": 4.5
+          }
+        ],
+        "oberlicht": false,
+        "rueckwand": "holz_dunkel",
+        "_hinweis": "Glaseingang zurückgesetzt (Foto des Eigentümers); Tiefe geschätzt"
+      },
+      "_hinweis": "zweiteilig: links Schaufenster, rechts Glaseingang, dazwischen ein Quaderpfeiler (Anbau eg-pfeiler)"
+    },
+    {
+      "id": "eg-band",
+      "typ": "band",
+      "x_m": 2.88,
+      "v_m": 3.55,
+      "hoehe_m": 0.1,
+      "breite_m": 5.76
+    },
+    {
+      "id": "eg-gesims",
+      "typ": "gesims",
+      "x_m": 2.88,
+      "v_m": 4,
+      "hoehe_m": 0.18,
+      "breite_m": 5.76,
+      "ausladung_cm": 14
+    },
+    {
+      "id": "1og-1",
+      "typ": "fenster",
+      "laeden_stellung": "zu",
+      "x_m": 1.6,
+      "v_m": 4.18,
+      "hoehe_m": 2.5,
+      "breite_m": 1.56
+    },
+    {
+      "id": "1og-2",
+      "typ": "fenster",
+      "laeden_stellung": "zu",
+      "x_m": 4.16,
+      "v_m": 4.18,
+      "hoehe_m": 2.5,
+      "breite_m": 1.56
+    },
+    {
+      "id": "2og-sohlbank",
+      "typ": "band",
+      "x_m": 2.86,
+      "v_m": 7.6,
+      "hoehe_m": 0.2,
+      "breite_m": 4.4
+    },
+    {
+      "id": "2og-1",
+      "typ": "fenster",
+      "x_m": 1.6,
+      "v_m": 7.8,
+      "hoehe_m": 2.16,
+      "breite_m": 1.42
+    },
+    {
+      "id": "2og-2",
+      "typ": "fenster",
+      "x_m": 4.16,
+      "v_m": 7.8,
+      "hoehe_m": 2.16,
+      "breite_m": 1.42
+    },
+    {
+      "id": "3og-sohlbank",
+      "typ": "band",
+      "x_m": 2.86,
+      "v_m": 10.25,
+      "hoehe_m": 0.2,
+      "breite_m": 4.4
+    },
+    {
+      "id": "3og-1",
+      "typ": "fenster",
+      "felder": [
+        2,
+        [
+          2,
+          2
+        ]
+      ],
+      "bruestung": "gitter_schmiedeeisern",
+      "x_m": 1.6,
+      "v_m": 10.45,
+      "hoehe_m": 2,
+      "breite_m": 1.42
+    },
+    {
+      "id": "3og-2",
+      "typ": "fenster",
+      "felder": [
+        2,
+        [
+          2,
+          2
+        ]
+      ],
+      "bruestung": "gitter_schmiedeeisern",
+      "x_m": 4.16,
+      "v_m": 10.45,
+      "hoehe_m": 2,
+      "breite_m": 1.42
+    }
+  ],
+  "anbauten": [
+    {
+      "id": "quader-links",
+      "typ": "lisene",
+      "quader": true,
+      "seite": "links",
+      "x_m": 0.31,
+      "breite_m": 0.62,
+      "relief_cm": 4,
+      "_hinweis": "markante Eckquaderung links und rechts (Grenzen zu den Nachbarn), vom Boden bis zur Traufe"
+    },
+    {
+      "id": "quader-rechts",
+      "typ": "lisene",
+      "quader": true,
+      "seite": "rechts",
+      "x_m": 5.42,
+      "breite_m": 0.7,
+      "relief_cm": 4
+    },
+    {
+      "id": "eg-pfeiler",
+      "typ": "lisene",
+      "quader": true,
+      "x_m": 2.87,
+      "breite_m": 0.93,
+      "v_m": 0,
+      "hoehe_m": 2.97,
+      "relief_cm": 4,
+      "_hinweis": "Mittelpfeiler aus Quadern zwischen Schaufenster und Eingang"
+    },
+    {
+      "id": "markise",
+      "typ": "markise",
+      "x_m": 2.88,
+      "breite_m": 5.3,
+      "v_m": 3.95,
+      "ausladung_m": 1.4,
+      "neigung_grad": 20,
+      "farbe": "markise_orange",
+      "_hinweis": "Sonnenstore (Müller), Ausladung geschätzt"
+    }
+  ],
+  "dach": {
+    "traufe": {
+      "vorsprung_m": 1,
+      "neigung_grad": 36,
+      "kaennel": true
+    },
+    "_traufe_grund": "wie 553 (gleiche Traufhöhe auf den Fotos); Neigung am Modell prüfen",
+    "_annahme": "Zwerchhaus identisch mit 553 (Eigentümer). Kamin oben rechts kommt aus kamine.json (x 4,6 m, 6,9 m hinter der Fassade).",
+    "zwerchhaus": {
+      "typ": "zwerchhaus_haube",
+      "x_m": 2.75,
+      "fuss_breite_m": 3.25,
+      "kopf_breite_m": 2,
+      "wandhoehe_m": 2,
+      "_masse": "identisch mit 553 und Hauptgasse 46 (Eigentümer); Mitte aus dem Frontalfoto 160354 (x 2,7 m, ±0,15 m)",
+      "band_breite_m": 0.25,
+      "platte_m": 0.25,
+      "first_hoehe_m": 2.8,
+      "spitze_tiefe_m": 1,
+      "ruecksprung_m": 1.1,
+      "platte_ueberstand_m": 0,
+      "fussbrett_m": 0,
+      "streifen_m": 0.4,
+      "fenster": {
+        "breite_m": 1.4,
+        "v_unten_ueber_traufe_m": 0.05,
+        "scheitel_ueber_traufe_m": 1.85,
+        "gitter_hoehe_m": 0.6
+      }
+    }
+  }
+}
